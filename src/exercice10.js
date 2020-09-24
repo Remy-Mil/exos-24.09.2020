@@ -19,7 +19,7 @@ Désolé, prenom nom, vous êtes mineur, vous ne pouvez pas voter
 
 Si l'âge est supérieur ou égal à l'argument passé en ligne de commande lui afficher:
 
-prenom nom, vous êtes majeur, vous pouvez voter*/
+prenom nom, vous êtes majeur, vous pouvez voter */
 
 console.log(
     'Merci de répondre aux questions afin de savoir si vous etes en age de voter.'

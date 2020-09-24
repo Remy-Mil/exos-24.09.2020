@@ -35,13 +35,3 @@ if (isNaN(process.argv[2])) {
     console.log(chalk.red(`Il faut entrer des chiffres`))
     process.exit(1)
 }
-
-if (goodNumber <= 10) {
-    console.log(chalk.red(`Il faut entrer des chiffres entre 0 et 10`))
-    process.exit(1)
-}
-
-if (goodNumber < 0) {
-    console.log(chalk.red(`Il faut entrer des chiffres entre 0 et 10`))
-    process.exit(1)
-}

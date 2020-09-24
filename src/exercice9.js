@@ -14,6 +14,8 @@ prenom nom, vous êtes majeur, vous pouvez voter*/
 console.log(
     'Merci de répondre aux questions afin de savoir si vous etes en age de voter.'
 )
+const isAdult= () => {
+
 let userFirstName = readlineSync.question('Prénom: ')
 if (!isNaN(userFirstName)) {
     console.log('Les chiffres ne sont pas autorisés')
@@ -42,3 +44,6 @@ if (Number(age) >= 18) {
     )
     process.exit(1)
 }
+}
+
+isAdult()
